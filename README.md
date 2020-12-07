@@ -2,4 +2,10 @@
 
 ![Fundus image](https://miro.medium.com/max/1400/1*cFM4tWOcLeGjwxuqSNLytA.png)
 
-This repository contains the code and report for my master's thesis regarding the interpretability of Convolutional Neural Networks trained to detect Retinopathy of Prematurity (ROP). The python file rop.py contains the code to train a classifier, as well as to generate explanations for the classifier's predictions using LIME, and through generating backpropagation-based saliency maps. 
+This repository contains work done as part of my master's thesis at UCL on the Interpretability of Convolutional Neural Networks trained to detect Retinopathy of Prematurity, in collaboration with Moorfields Eye Hospital, London, UK.
+
+1. `train.py` - Train a classifier
+2. `utils.py` - Helper functions
+3. `simple_cnn.py` - Baseline CNN model
+4. `lime_explain.py` - Generate LIME explanations for classifier's predictions
+5. `saliency_explain.py` - Generate backpropagation-based saliency maps for classifier's predictions
