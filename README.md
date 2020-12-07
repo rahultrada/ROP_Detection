@@ -1,4 +1,4 @@
-# ROP
+# ROP detection
 
 ![Fundus image](https://miro.medium.com/max/1400/1*cFM4tWOcLeGjwxuqSNLytA.png)
 
